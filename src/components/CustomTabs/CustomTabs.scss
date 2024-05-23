@@ -1,0 +1,14 @@
+.MuiTabs-scroller{
+    background-color: var(--lighter-gray);
+}
+.MuiTab-root {
+  font-size: var(--font-size-13) !important;
+  font-weight: 600 !important;
+  color: var(--black-2);
+  @media only screen and (max-width:1024px){
+    font-size: var(--font-size-11) !important;
+  }
+  &.Mui-selected{
+    color: var(--blue-1);
+  }
+}

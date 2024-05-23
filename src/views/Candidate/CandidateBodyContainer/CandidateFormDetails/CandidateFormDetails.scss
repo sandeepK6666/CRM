@@ -1,0 +1,15 @@
+.candidate-detail-form{
+    padding: 15px;
+    font-size: var(--font-size-13);
+    @media only screen and (min-width: 768px){
+        display: flex;
+    }
+    .candidate-value{
+        color:var(--dark-gray);
+        font-weight: 500;
+    }
+    label{
+        font-weight: 600;
+        color: var(--black-2);
+    }
+}

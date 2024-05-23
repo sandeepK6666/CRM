@@ -1,0 +1,22 @@
+.search-bar {
+    align-items: center;
+    position: relative;
+    display: flex;
+    input {
+      height: 40px;
+      
+      border: 1.5px solid var(--lighter-gray) !important;
+      padding-left: 45px !important;
+      border-radius: 5px !important;
+      color: var(--gray);
+      font-size: var(--font-size-14);
+      width: 100%;
+      font-weight: 500;
+      background-color: var(--white-gray);
+    }
+    img {
+      position: absolute;
+      left: 16px;
+    }
+  }
+  

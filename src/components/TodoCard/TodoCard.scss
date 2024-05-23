@@ -1,0 +1,41 @@
+.todo-wrapper {
+  background-color: var(--text-white);
+  border: 1px solid var(--lighter-gray);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  .todo-title {
+    display: flex;
+    gap: 15px;
+    .tag {
+      background-color: var(--off-white);
+      border-radius: 5px;
+      padding: 4px 9px;
+      font-weight: 510;
+      font-size: var(--font-size-12);
+      line-height: 14.32px;
+    }
+  }
+  .todo-desc {
+    font-size: var(--font-size-13);
+    font-weight: 400;
+    color: var(--black-2);
+  }
+  .label {
+    font-size: var(--font-size-13);
+    font-weight: 600;
+  }
+  .todo-user {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-13);
+    font-weight: 400;
+    color: var(--black-1);
+    @media only screen and (max-width: 1024px) {
+      font-size: var(--font-size-10);
+    }
+  }
+}

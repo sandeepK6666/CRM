@@ -1,0 +1,87 @@
+.candidate-info-card {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 18px 10px;
+  background-color: var(--text-white);
+  .profile {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    >img{
+      @media only screen and (max-width:1024px){
+        width:40px
+      }
+    }
+    .location-info {
+      color: var(--dark-gray);
+      font-size: var(--font-size-13);
+      font-weight: 400;
+    }
+    .name-media {
+      color: var(--black-2);
+      font-size: var(--font-size-18);
+      font-weight: 600;
+      @media only screen and (max-width: 1024px) {
+        font-size: var(--font-size-15);
+      }
+    }
+  }
+  .location-info,
+  .name-media {
+    display: flex;
+    gap: 15px;
+  }
+  .edit-details {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    .btn-label {
+      font-weight: 600;
+      color: var(--bright-red);
+    }
+    .edit-actions {
+      justify-content: center;
+      border-radius: 5px;
+      border: 1px solid var(--light-gray-2);
+      margin: auto;
+      display: flex;
+      img {
+        padding: 10px;
+      }
+    }
+  }
+}
+.candidate-contact {
+  background: var(--text-white)f;
+  border: 1px solid var(--lighter-gray);
+  padding: 13.2px;
+  .location-info {
+    display: flex;
+    justify-content: space-between;
+    .location-info-inner {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+    .email,
+    .contact {
+      color: var(--navy-blue);
+      font-size: var(--font-size-13);
+      line-height: 20px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .date {
+      color: var(--black-2);
+      font-size: var(--font-size-13);
+      line-height: 20px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}

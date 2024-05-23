@@ -1,0 +1,24 @@
+.todo-sidebar {
+  width: 30%;
+  .side-task-bar {
+    background-color: var(--text-white);
+    padding: 33px 20px;
+    display: flex;
+    gap: 20px;
+    .task-bar {
+      border-radius: 50%;
+      background: #e6f1ff;
+      padding: 12px;
+    }
+  }
+  .todo-tabs {
+    .MuiTab-root {
+      &.Mui-selected{
+        color: var(--blue-1);
+      }
+    }
+    .MuiTabs-indicator{
+        background-color: transparent;
+    }
+  }
+}

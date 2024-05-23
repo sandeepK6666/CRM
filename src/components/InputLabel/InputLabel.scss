@@ -1,0 +1,34 @@
+.cus-form-label {
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    color: var(--darker-gray);
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .input-innerlabel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    input:focus {
+      box-shadow: none;
+      outline: none;
+    }
+    input:disabled {
+      cursor: not-allowed;
+    }
+  }
+  
+  .input-end-adornment {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+  }
+  
+  .form-control {
+    &.end-adornment {
+      padding-right: 100px;
+    }
+  }
+  

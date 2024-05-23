@@ -1,0 +1,54 @@
+.candidate-detail-card-wrapper {
+  border-radius: 5px;
+  border: 1px solid var(--lighter-gray);
+  background: var(--text-white);
+  margin-bottom: 15px;
+  .candidate-detail-card-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .profile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    .name {
+      font-size: var(--font-size-13);
+      color: var(--black-1);
+      font-weight: 600;
+    }
+    .designation {
+      font-size: var(--font-size-12);
+      font-weight: 510;
+      color: var(--medium-gray);
+    }
+  }
+  .location-info-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .date {
+      color: var(--dark-gray);
+      font-size: var(--font-size-12);
+      line-height: 20px;
+      font-weight: 510;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .assigned-tag {
+    background-color: var(--white-gray);
+    border-radius: 5px;
+    padding: 1px 3px;
+    border: 1px solid var(--off-white);
+    font-size: var(--font-size-13);
+    color: var(--dark-gray);
+    font-weight: 510;
+  }
+}
